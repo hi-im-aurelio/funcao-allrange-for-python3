@@ -10,8 +10,8 @@ For reasons of not being able to select the beginning and the end (if it is, unt
 Basically it does what the name says. But giving more control over dynamic and static lists.
 From an existing list or even one dynamically created by range(x, y), I can do the same as a range() would do in, for example:
 
-~~~python
 In a range() I would do:
+~~~python
 for num in range(1, 5): print(num)
 
 #or

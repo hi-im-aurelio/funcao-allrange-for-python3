@@ -1,9 +1,9 @@
 #// TEST TO ADD THE STEP FUNCAO, STILL IN DEVELOPMENT.
 
-user= 1
-step = 3
+step = 0
 immutablestep = step+1
-l =range(1, 30)
+l =range(1, 10)
+
 
 for chr in l:
     if l.index(chr) == step:
@@ -12,4 +12,4 @@ for chr in l:
     else:
         print(chr)
     
-print(immutablestep)
+print("Foram {} steps".format(immutablestep))
